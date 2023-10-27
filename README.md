@@ -3,6 +3,8 @@ Icon font containing tone indicator ligatures.
 
 Generated with [IcoMoon](https://icomoon.io/).
 
+<img alt="Screenshot 2023-10-27 at 17 30 22" src="https://github.com/boylett/Tone-Indicators-Icon-Font/assets/145017198/c3a6dfa0-982e-499e-91a3-63fcf2038985" />
+
 ## Usage
 
 #### NPM
