@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'ToneIndicators';
+  src:
+    url('fonts/ToneIndicators.ttf?fo6ix3') format('truetype'),
+    url('fonts/ToneIndicators.woff?fo6ix3') format('woff'),
+    url('fonts/ToneIndicators.svg?fo6ix3#ToneIndicators') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.tone-indicator {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ToneIndicators' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tone-c:before {
+  content: "\e900";
+}
+.tone-cb:before {
+  content: "\e903";
+}
+.tone-f:before {
+  content: "\e904";
+}
+.tone-g:before {
+  content: "\e905";
+}
+.tone-gen:before {
+  content: "\e906";
+}
+.tone-hj:before {
+  content: "\e899";
+}
+.tone-hyp:before {
+  content: "\e907";
+}
+.tone-ij:before {
+  content: "\e908";
+}
+.tone-j:before {
+  content: "\e901";
+}
+.tone-l:before {
+  content: "\e909";
+}
+.tone-lh:before {
+  content: "\e90a";
+}
+.tone-li:before {
+  content: "\e90b";
+}
+.tone-lu:before {
+  content: "\e90c";
+}
+.tone-ly:before {
+  content: "\e90d";
+}
+.tone-m:before {
+  content: "\e90e";
+}
+.tone-nbh:before {
+  content: "\e90f";
+}
+.tone-nc:before {
+  content: "\e910";
+}
+.tone-neg:before {
+  content: "\e911";
+}
+.tone-neu:before {
+  content: "\e912";
+}
+.tone-nm:before {
+  content: "\e913";
+}
+.tone-nsb:before {
+  content: "\e914";
+}
+.tone-nsrs:before {
+  content: "\e915";
+}
+.tone-nsx:before {
+  content: "\e916";
+}
+.tone-nx:before {
+  content: "\e917";
+}
+.tone-p:before {
+  content: "\e918";
+}
+.tone-pc:before {
+  content: "\e919";
+}
+.tone-pos:before {
+  content: "\e91a";
+}
+.tone-r:before {
+  content: "\e91b";
+}
+.tone-rh:before {
+  content: "\e91c";
+}
+.tone-rt:before {
+  content: "\e91d";
+}
+.tone-s:before {
+  content: "\e902";
+}
+.tone-srs:before {
+  content: "\e91e";
+}
+.tone-sx:before {
+  content: "\e91f";
+}
+.tone-t:before {
+  content: "\e920";
+}
+.tone-x:before {
+  content: "\e921";
+}

@@ -1,0 +1,214 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?fo6ix3') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?fo6ix3') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?fo6ix3##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.tone-indicator {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tone-c {
+  &:before {
+    content: $tone-c; 
+  }
+}
+.tone-cb {
+  &:before {
+    content: $tone-cb; 
+  }
+}
+.tone-f {
+  &:before {
+    content: $tone-f; 
+  }
+}
+.tone-g {
+  &:before {
+    content: $tone-g; 
+  }
+}
+.tone-gen {
+  &:before {
+    content: $tone-gen; 
+  }
+}
+.tone-hj {
+  &:before {
+    content: $tone-hj; 
+  }
+}
+.tone-hyp {
+  &:before {
+    content: $tone-hyp; 
+  }
+}
+.tone-ij {
+  &:before {
+    content: $tone-ij; 
+  }
+}
+.tone-j {
+  &:before {
+    content: $tone-j; 
+  }
+}
+.tone-l {
+  &:before {
+    content: $tone-l; 
+  }
+}
+.tone-lh {
+  &:before {
+    content: $tone-lh; 
+  }
+}
+.tone-li {
+  &:before {
+    content: $tone-li; 
+  }
+}
+.tone-lu {
+  &:before {
+    content: $tone-lu; 
+  }
+}
+.tone-ly {
+  &:before {
+    content: $tone-ly; 
+  }
+}
+.tone-m {
+  &:before {
+    content: $tone-m; 
+  }
+}
+.tone-nbh {
+  &:before {
+    content: $tone-nbh; 
+  }
+}
+.tone-nc {
+  &:before {
+    content: $tone-nc; 
+  }
+}
+.tone-neg {
+  &:before {
+    content: $tone-neg; 
+  }
+}
+.tone-neu {
+  &:before {
+    content: $tone-neu; 
+  }
+}
+.tone-nm {
+  &:before {
+    content: $tone-nm; 
+  }
+}
+.tone-nsb {
+  &:before {
+    content: $tone-nsb; 
+  }
+}
+.tone-nsrs {
+  &:before {
+    content: $tone-nsrs; 
+  }
+}
+.tone-nsx {
+  &:before {
+    content: $tone-nsx; 
+  }
+}
+.tone-nx {
+  &:before {
+    content: $tone-nx; 
+  }
+}
+.tone-p {
+  &:before {
+    content: $tone-p; 
+  }
+}
+.tone-pc {
+  &:before {
+    content: $tone-pc; 
+  }
+}
+.tone-pos {
+  &:before {
+    content: $tone-pos; 
+  }
+}
+.tone-r {
+  &:before {
+    content: $tone-r; 
+  }
+}
+.tone-rh {
+  &:before {
+    content: $tone-rh; 
+  }
+}
+.tone-rt {
+  &:before {
+    content: $tone-rt; 
+  }
+}
+.tone-s {
+  &:before {
+    content: $tone-s; 
+  }
+}
+.tone-srs {
+  &:before {
+    content: $tone-srs; 
+  }
+}
+.tone-sx {
+  &:before {
+    content: $tone-sx; 
+  }
+}
+.tone-t {
+  &:before {
+    content: $tone-t; 
+  }
+}
+.tone-x {
+  &:before {
+    content: $tone-x; 
+  }
+}
+

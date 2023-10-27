@@ -1,0 +1,22 @@
+{
+  "name": "tone-indicators-icon-font",
+  "version": "1.0.0",
+  "description": "Icon font containing Tone Indicators",
+  "main": "style.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boylett/Tone-Indicators-Icon-Font.git"
+  },
+  "keywords": [
+    "tone",
+    "indicators",
+    "icon",
+    "webfont"
+  ],
+  "author": "Ryan Boylett <ryan@boylett.dev>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boylett/Tone-Indicators-Icon-Font/issues"
+  },
+  "homepage": "https://boylett.github.io/Tone-Indicators-Icon-Font/demo.html"
+}
